@@ -693,6 +693,108 @@ header .navbar ul li a:hover{
     }
 }
 
+/* section header css */
+
+.home {
+    text-align: center;
+    padding: 10rem 0;
+    background: linear-gradient(to right, var(--pink) 50%, var(--black) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    transition: 0.5s;
+    animation: gradient 5s infinite;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.home h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.home h1 span {
+    color: var(--pink);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Text shadowbackground-clip: text; /* Clip the background to text */
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: right bottom;
+    }
+    50% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: right bottom;
+    }
+}
+
+.home p {
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.btn {
+    padding: 0.7rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i {
+    padding: 0 0.5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover {
+    background: var(--pink);
+}
+
+/* section header nav bar */
+.close-section {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+
+/* section header nav bar animation */
+
+/* Add this CSS code to your stylesheet */
+.navbar ul li {
+    transition: transform 0.2s;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1);
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    transition: background 0.2s; /* Add this line for smooth background color transition */
+}
+
+.navbar ul li a:hover {
+    background: var(--pink);
+}
+
+
+
 
 
 
