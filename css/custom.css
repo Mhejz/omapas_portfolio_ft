@@ -1,4 +1,8 @@
 .text{
-    color: palevioletred;
+    color: white;
+    text-align: center;
+}
+.textPink{
+    color: pink;
     text-align: center;
 }
