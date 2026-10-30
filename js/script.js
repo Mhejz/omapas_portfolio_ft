@@ -45,3 +45,5 @@ function calculateAge(birthDate) {
     // Ilagay dito ang saktong birthday mo (YYYY-MM-DD)
     const myBirthDate = "1999-04-26"; 
     document.getElementById("my-age").innerText = calculateAge(myBirthDate);
+
+
